@@ -1,0 +1,23 @@
+{
+  "name": "ancient-ant",
+  "version": "1.0.0",
+  "description": "Common JS Utility Functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smithrm941/ancient-ant.git"
+  },
+  "author": "Rhonda Smith, Michael Masterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smithrm941/ancient-ant/issues"
+  },
+  "homepage": "https://github.com/smithrm941/ancient-ant#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
