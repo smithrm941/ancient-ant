@@ -1,7 +1,7 @@
 # ancient-ant
 Common JS Utility Functions [Lodash]
 
-###Context
+Context
 
 This project will take you into the realm of real a JavaScript library used by thousands (maybe millions) of developers across the world. You’ll have to think like an open-source software developer and learn the benefits and constraints of such a role.
 
@@ -14,7 +14,7 @@ How do we write packages that are easy to understand and simple to use out of th
 How to publish a package to NPM? (part of stretch goal)
 This goal is the sister goal of Common JS Utility Functions - Underscore.
 
-###Specifications
+Specifications
 
  - [ ] Tests and correct implementations exist for 64 (not all) utility functions from the Lodash library.
  - [ ] Functions are organized into files with the same names as the function groups from Lodash (e.g. “Array”, “Collection”, “Lang”).
@@ -27,9 +27,9 @@ This goal is the sister goal of Common JS Utility Functions - Underscore.
  - [ ] Package is published to NPM.
  - [ ] All source code has inline documentation using JSDoc format.
  - [ ] Documentation is published a simple GitHub Pages site (hint: use a builder like the documentation package).
-###Quality Rubric
+Quality Rubric
 
-##Well formatted code
+Well formatted code
 
 -Code uses a linter, which can be invoked with a command (e.g. npm run lint). [50 points]
 -Running the linter on all source code files generates no linting errors. [50 points]
