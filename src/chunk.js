@@ -1,19 +1,21 @@
 var chunk = function (array, number){
-  var final = [];
-  if(Array.isArray(array) && number > 0){
-    for(var i = 0; i<array.length;){
-        temp = [];
-        chunkOfNumber = array.splice(0, number);
-        final.push(chunkOfNumber);
-    }
-  } else if (Array.isArray(array) && number == undefined){
-    for(var i = 0; i<array.length;){
-        temp = [];
-        chunkOfNumber = array.splice(0, 1);
-        final.push(chunkOfNumber);
-    }
+  console.log(!Array.isArray(array));
+  var result = [];
+  var spliceNumber
+  if (number < 0 || !Array.isArray(array)){
+    return result;
+  } else if (number == undefined){
+    spliceNumber = 1;
+  } else if(number > 0){
+      spliceNumber = number;
   }
-  return final;
+    while(array.length > 0){
+        temp = [];
+        chunkOfNumber = array.splice(0, spliceNumber);
+        result.push(chunkOfNumber);
+    }
+
+  return result;
 };
 
 module.exports = chunk;
