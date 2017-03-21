@@ -1,5 +1,4 @@
 var chunk = function (array, number){
-  console.log(!Array.isArray(array));
   var result = [];
   var spliceNumber
   if (number < 0 || !Array.isArray(array)){
