@@ -14,7 +14,7 @@ describe('chunk()', function(){
     expect(chunk(['a', 'b', 'c', 'd'], 3)).to.deep.equal([['a','b','c'], ['d']])
   })
 
-  it.only('should return an empty array if anything other than an array is used in place of the array', function(){
+  it('should return an empty array if anything other than an array is used in place of the array', function(){
     expect(chunk('apple banana')).to.deep.equal([])
     expect(chunk(1234)).to.deep.equal([])
   })
