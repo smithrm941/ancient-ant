@@ -15,8 +15,7 @@ Integer
 
 ### Example
 
-```add(6, 4);
-// returns 10```
+
 
 ## camelCase
 
@@ -33,8 +32,6 @@ word, which is lowercase)
 
 ### Example
 
-```camelCase('--foo-bar--');
-// returns fooBar```
 
 ## capitalize
 
@@ -50,8 +47,6 @@ String after converting first letter to capital and remaining letters to lowerca
 
 ### Example
 
-```capitalize('aPPle pIE');
-// returns 'Apple pie'```
 
 ## chunk
 
@@ -70,8 +65,6 @@ elements.
 
 ### Example
 
-```chunk(['a','b','c','d'], 3)
-// returns [['a','b','c'],['d']]```
 
 ## compact
 
@@ -87,9 +80,6 @@ An array with falsey values removed
 
 ### Example
 
-```
-
-```
 
 ## concat
 
